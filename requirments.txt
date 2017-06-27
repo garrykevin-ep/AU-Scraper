@@ -1,0 +1,12 @@
+BeautifulSoup==3.2.1
+beautifulsoup4==4.6.0
+bs4==0.0.1
+certifi==2017.4.17
+chardet==3.0.4
+idna==2.5
+lxml==3.8.0
+pip==9.0.1
+requests==2.18.1
+setuptools==36.0.1
+urllib3==1.21.1
+wheel==0.29.0
