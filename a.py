@@ -10,8 +10,8 @@ def id_generator(size=6, chars=string.ascii_uppercase + string.digits):
 def mark():
 	url = 'http://coe1.annauniv.edu/home/'
 	post_url = 'http://coe1.annauniv.edu/home/students_corner.php'
-	reg_no = ''
-	dob =  ''
+	reg_no = '312415205014'
+	dob =  '09-04-1997'
 
 	s=requests.Session()
 
@@ -70,11 +70,4 @@ def mark():
 
 	# print r.content
 
-t1 = threading.Thread(target=mark, args=[])
-t2 = threading.Thread(target=mark, args=[])
-t3 = threading.Thread(target=mark, args=[])
-
-t1.start()
-t2.start()
-t3.start()
-# mark()
+mark()

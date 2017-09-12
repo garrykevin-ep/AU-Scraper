@@ -10,3 +10,4 @@ requests==2.18.1
 setuptools==36.0.1
 urllib3==1.21.1
 wheel==0.29.0
+locustio
